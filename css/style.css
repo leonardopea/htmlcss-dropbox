@@ -54,7 +54,7 @@ a{
 /* fine header */
 
 
-/* inizio main */
+/* inizio main: sezione1: title*/
 
 .container_title{
     background-color: #B4D0E7;
@@ -113,3 +113,44 @@ h1{
 
 }          
 
+/* inizio main: sezione 2: le offerte */
+
+.jumbotron{
+    max-width: 750px;
+    margin: auto;
+    margin-top: 150px;
+
+}
+h2{
+    font-size: 30px;
+}
+
+#radio2{   /* bottoni radio*/
+    margin-left: 30px;
+}
+.radio{
+    margin-top: 50px;
+}
+
+.row_offerte{
+    display: flex;
+    gap: 30px;
+}
+
+.col_offerte{
+    width: calc(100% / 3);
+    
+}
+
+/* inizio colonne offerte */
+
+.col_logo{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 7px;
+    border: 1px solid rgb(168, 163, 163);
+    margin-top: 30px;
+    padding: 8px;
+
+}
