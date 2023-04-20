@@ -4,6 +4,14 @@
     box-sizing: border-box;
 
 }
+body{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+/* inizio header */
+
+
 
 .row_header{
     width: 100%;
@@ -36,9 +44,72 @@ a{
     color: black;
 }
 
-#inizia{       /* creo padding blu attorno ad inizia */
+.blue{       /* creo padding blu attorno ad inizia */
     background-color: #0251FF;
     padding: 5px 12px;
     color: white;
 
 }              
+
+/* fine header */
+
+
+/* inizio main */
+
+.container_title{
+    background-color: #B4D0E7;
+    position: relative;
+}
+
+.row_title{
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+h1{
+    font-size: 60px;
+    padding-top: 50px;
+}
+
+
+.col_title{   /* tutte le colonne*/
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.col1_title{
+    width: 30%;
+    margin-top: 40px;
+}
+
+.col2_title{
+    width: 20%;
+    text-align: center;
+}
+
+.col2_title2{
+    width: 25%;
+}
+
+
+.col3_title{
+    width: 7%;
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+
+#jumbo{           /* immagine jumbo */
+    width: 50%;
+    position: absolute;
+    top: 231px;
+    left: 580px;
+
+}          
+
