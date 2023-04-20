@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.row_header{
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    padding: 20px;
+    
+}
+
+.col_header1{
+    width: calc(100% / 2);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    
+}
+.col_header2{
+    width: calc(100% / 2);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#inizia{       /* creo padding blu attorno ad inizia */
+    background-color: #0251FF;
+    padding: 5px 12px;
+    color: white;
+
+}              
