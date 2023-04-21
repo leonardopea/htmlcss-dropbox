@@ -39,14 +39,17 @@ body{
 }
 
 
-a:not(.link) {
+a:not(.link, .blue) {
     text-decoration: none;
+    color: black;
 }
+
 
 .blue{       /* creo padding blu attorno ad inizia */
     background-color: #0251FF;
     padding: 5px 12px;
     color: white;
+    text-decoration: none;
 
 }              
 
