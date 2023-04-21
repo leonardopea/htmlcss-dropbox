@@ -41,7 +41,6 @@ body{
 
 a:not(.link) {
     text-decoration: none;
-    color: black;
 }
 
 .blue{       /* creo padding blu attorno ad inizia */
@@ -203,6 +202,7 @@ h3{
 .style_blu{
     margin-top: 60px;
     justify-content: center;
+    color: white;
 }
 
 /* link acquisto */
