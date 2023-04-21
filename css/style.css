@@ -230,6 +230,7 @@ h3{
     color:#0251FF;
     font-weight: 800;
     font-size: 20px;
+
 }
 
 .list2_content{
@@ -243,4 +244,51 @@ h3{
 
 .li_button{
     margin-bottom: 50px;
+}
+
+/* inizio tabella orizzontale row_team */
+
+.row_team{
+    display: flex;
+    justify-content: center;
+}
+
+.contenitore_tabella_orizzontale{
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
+
+.row_enterprise{
+    display: flex;
+    align-items: baseline;
+    gap: 30px;
+    
+
+}
+
+.col_enterprise{
+    width: calc(100% / 3);
+    padding: 0 25px;
+    
+
+
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+}
+.contact{
+    padding: 12px 35px;
+}
+
+.col_contatti{
+    padding: 0 25px;
+    margin-top: 10px;
+}
+
+.contatti2{
+    width: calc(72%);
+    margin-top: 50px;
 }
