@@ -39,7 +39,7 @@ body{
 }
 
 
-a{
+a:not(.link) {
     text-decoration: none;
     color: black;
 }
@@ -116,10 +116,13 @@ h1{
 /* inizio main: sezione 2: le offerte */
 
 .jumbotron{
-    max-width: 750px;
+    max-width: 900px;
     margin: auto;
     margin-top: 150px;
-
+    
+}
+.border{
+    border: 1px solid black;
 }
 h2{
     font-size: 30px;
@@ -130,6 +133,7 @@ h2{
 }
 .radio{
     margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 .row_offerte{
@@ -139,6 +143,7 @@ h2{
 
 .col_offerte{
     width: calc(100% / 3);
+    border: 1px solid black;
     
 }
 
@@ -149,8 +154,90 @@ h2{
     justify-content: center;
     align-items: baseline;
     gap: 7px;
-    border: 1px solid rgb(168, 163, 163);
-    margin-top: 30px;
     padding: 8px;
 
+}
+
+
+.prezzo{
+    font-weight: 600;
+    padding-top: 20px;
+}
+.periodo{
+    color: rgb(95, 93, 93);
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
+
+h3{
+    font-size: 20px;
+    padding-top: 30px;
+}
+.proposta{
+    padding: 0 25px;
+}
+
+
+
+
+
+/* lista dei vantaggi */
+
+.primalista li{
+    list-style: none;
+}
+.vantaggi{
+    padding: 0 17px;
+
+}
+
+.sx{
+    justify-content: flex-start;
+    margin-top: 10px;
+    
+}
+
+
+/* bottone blu */
+
+.style_blu{
+    margin-top: 60px;
+    justify-content: center;
+}
+
+/* link acquisto */
+
+.link{
+    color: blue;
+    
+}
+
+.hr{
+    width: 30%;
+    padding-left: 7px;
+    margin-bottom: 60px;
+    
+}
+
+.secondalista li{
+    list-style: none;
+}
+
+.check{
+    color:#0251FF;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.list2_content{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.flex{
+    display: flex;
+}
+
+.li_button{
+    margin-bottom: 50px;
 }
