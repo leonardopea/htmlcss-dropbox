@@ -169,7 +169,7 @@ h2{
     margin-bottom: 40px;
 }
 
-h3{
+h3:not(.business_title){
     font-size: 20px;
     padding-top: 30px;
 }
@@ -321,4 +321,28 @@ h3{
     border: 1px solid black;
     padding: 3px 10px;
     
+}
+
+
+/* iniizo parte business */
+
+.row_business{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 100px;
+    
+}
+
+.col_business{
+    width: calc(100% / 3 - 60px);
+}
+
+.img_business{
+    width: 100%;
+
+}
+.business_content{
+    margin-top: 15px;
 }
