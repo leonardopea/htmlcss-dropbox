@@ -379,8 +379,7 @@ h3:not(.business_title){
 
 .col_interna{
     width: calc(100% / 2);
-    height: 200px;
-    background-color: rgb(255, 255, 127);
+    height: 250px;
     position: relative;
 
 }
@@ -392,5 +391,63 @@ h3:not(.business_title){
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    filter: invert(100%);
     
+}
+
+.box1_1{
+    background-color: #A2D39B;
+    border: 10px solid #D1E9CD;
+}
+
+
+.box1_2{
+    background-color: #61082B;
+}
+.box1_3{
+    background-color: #0093CE;
+}
+.box1_4{
+    background-color: #FF1C1C;
+}
+/* second box */
+
+.container_middle_box{
+    width: 100%;
+    padding: 30px 30px;
+}
+
+.big_img{
+    width: 50%;
+}
+
+.hr_big_img{
+    width: 25%;
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.094);
+}
+
+.box_text{
+    margin-top: 30px;
+}
+
+.foot_text{
+    margin-top: 30px;
+}
+
+.box2{
+    background-color: #F5F5F5;
+}
+/* terzo box  */
+.box3_1{
+    background-color: #D5001F;
+}
+.box3_2{
+    background-color: #B4D0E7;
+}
+.box3_3{
+    background-color: #0D2481;
+}
+.box3_4{
+    background-color: #FFD830;
 }
