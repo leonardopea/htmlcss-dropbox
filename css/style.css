@@ -439,6 +439,8 @@ h3:not(.business_title){
     background-color: #F5F5F5;
 }
 /* terzo box  */
+
+
 .box3_1{
     background-color: #D5001F;
 }
@@ -450,4 +452,32 @@ h3:not(.business_title){
 }
 .box3_4{
     background-color: #FFD830;
+}
+
+/* sezione 8 */
+
+.row_sezione8{
+    display: flex;
+    align-items: baseline;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.col_sezione8{
+    width: calc(100% / 2);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sez8_1{
+    width: 50%;
+
+}
+
+.sez8_2{
+    padding-right: 400px;
+    
+}
+
+.white{
+    background-color: white;
 }
