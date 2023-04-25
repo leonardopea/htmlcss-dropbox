@@ -39,7 +39,7 @@ body{
 }
 
 
-a:not(.link, .blue) {
+a:not(.link, .blue, .link_footer, .freccia) {
     text-decoration: none;
     color: black;
 }
@@ -502,4 +502,66 @@ h3:not(.business_title){
 
 .freccia{
     font-weight: 800;
+}
+
+
+/* footer */
+
+footer{
+
+    background-color: black;
+    margin-top: 100px;
+}
+
+.container_footer{
+    max-width: 1100px;
+    margin: auto;
+    color: white;
+}
+
+.row_footer{
+    display: flex;
+    gap: 10px;
+
+}
+
+.col_footer{
+    width: calc(100% / 5);
+    margin-top: 50px;
+    
+}
+
+h6{
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.link_footer{
+    color: white;
+    text-decoration: none;
+}
+
+.col_text_footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hr_footer{
+    width: 50%;
+    margin-top: 70px;
+}
+
+.italiano{
+    margin-top: 30px;
+    display: flex;
+    gap: 5px;
+    align-items: baseline;
+}
+
+.freccia{
+    color: white;
+    padding-bottom: 50px;
+    text-decoration: none;
 }
