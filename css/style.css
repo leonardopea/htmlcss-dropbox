@@ -481,3 +481,25 @@ h3:not(.business_title){
 .white{
     background-color: white;
 }
+
+
+/* sezione9 : faq */
+
+.jumbotron2{
+    max-width: 900px;
+    margin: auto;
+    margin-top: 50px;
+}
+.jumbo2{
+    margin: 30px 0;
+}
+
+.row_faq{
+    display: flex;
+    gap: 250px;
+    align-items: baseline;
+}
+
+.freccia{
+    font-weight: 800;
+}
