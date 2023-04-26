@@ -561,7 +561,11 @@ h6{
 }
 
 .freccia{
-    color: white;
+    color: black;
     padding-bottom: 50px;
     text-decoration: none;
+}
+
+.tendina{
+    color: white;
 }
